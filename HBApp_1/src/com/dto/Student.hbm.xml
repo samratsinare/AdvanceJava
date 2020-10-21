@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 20, 2020 4:38:37 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.dto.Student" table="student">
+        <id name="rollno" type="int">
+            <column name="rollno" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="student_name" />
+        </property>
+        <property name="age" type="int">
+            <column name="age" />
+        </property>
+    </class>
+</hibernate-mapping>
